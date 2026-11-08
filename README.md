@@ -68,6 +68,7 @@ Produk tidak akan disimpan dan muncul pesan merah di bawah form.
 
 
 
+
 <img width="1366" height="768" alt="Screenshot 2026-11-08 181944" src="https://github.com/user-attachments/assets/17fa5877-7e8c-436c-94b0-ea140d8376eb" />
 [Harga di bawah Rp500]
 
@@ -91,8 +92,10 @@ Ketik nama atau kode produk, lalu klik **Cari**.
 
 
 
+
 <img width="1366" height="768" alt="Screenshot 2026-11-08 182224" src="https://github.com/user-attachments/assets/162eb262-8281-4f56-a94f-c37daf7d8842" />
 [Cari kode]
+
 
 
 
@@ -100,6 +103,7 @@ Klik **Reset** untuk menampilkan semua produk lagi.
 
 <img width="1366" height="768" alt="Screenshot 2026-11-08 182254" src="https://github.com/user-attachments/assets/c074bf54-1ee5-4444-afde-4371e98f95e6" />
 [Setelah Reset]
+
 
 
 
@@ -112,8 +116,10 @@ Pilih satu baris di tabel, lalu klik **Lihat Detail**.
 
 
 
+
 <img width="1366" height="768" alt="Screenshot 2026-11-08 182419" src="https://github.com/user-attachments/assets/0c2eac84-476b-4841-8da5-8eee3f7b0d4d" />
 [Detail tanpa foto]
+
 
 
 
@@ -121,6 +127,7 @@ Jika belum memilih baris, muncul pesan peringatan.
 
 <img width="1366" height="768" alt="Screenshot 2026-11-08 190946" src="https://github.com/user-attachments/assets/e2967645-00ec-447b-bc7a-3ebe9987b589" />
 [Belum memilih salah satu baris]
+
 
 
 
