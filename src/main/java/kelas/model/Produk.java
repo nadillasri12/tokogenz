@@ -1,0 +1,50 @@
+package kelas.model;
+
+public class Produk {
+
+    private final String kode;
+    private final String nama;
+    private final String kategori;
+    private final long harga;
+    private final String gambarUri; // alamat file foto, boleh kosong (null)
+
+    public Produk(String kode, String nama, String kategori, long harga, String gambarUri) {
+        if (kode == null || kode.isBlank()) {
+            throw new IllegalArgumentException("Kode produk tidak boleh kosong.");
+        }
+        if (nama == null || nama.isBlank()) {
+            throw new IllegalArgumentException("Nama produk wajib diisi.");
+        }
+        if (!"Makanan".equals(kategori) && !"Minuman".equals(kategori)) {
+            throw new IllegalArgumentException("Kategori harus Makanan atau Minuman.");
+        }
+        if (harga < 500) {
+            throw new IllegalArgumentException("Harga minimal Rp500.");
+        }
+        this.kode = kode;
+        this.nama = nama.trim();
+        this.kategori = kategori;
+        this.harga = harga;
+        this.gambarUri = gambarUri;
+    }
+
+    public String getKode() {
+        return kode;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public String getKategori() {
+        return kategori;
+    }
+
+    public long getHarga() {
+        return harga;
+    }
+
+    public String getGambarUri() {
+        return gambarUri;
+    }
+}
